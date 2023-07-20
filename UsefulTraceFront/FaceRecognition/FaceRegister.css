@@ -1,0 +1,104 @@
+.headings{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   margin-top: 50px;
+   font-size: 50px;
+   background-color: rgb(0, 37, 255);
+   color: aliceblue;
+   width: 900px;
+   margin-left: 300px;
+   border: 3px solid rgb(53, 73, 166);
+   border-radius: 20px;
+}
+
+.headings:hover{
+    background-color: rgb(102, 182, 16);
+    color: black;
+}
+
+body{
+    background-color: rgba(43, 226, 103, 0.57);
+}
+
+.video{
+    
+    margin-top: 30px;
+    border: 20px solid rgba(41, 85, 153, 0.75);
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 280px;
+}
+.video:hover{
+    border: 20px solid rgba(22, 168, 39, 0.75);
+}
+
+.video_contain{
+    display: flex;
+    justify-content: left;
+}
+
+.name_in{
+    margin-top: 40px;
+    height: 30px;
+    width: 200px;
+}
+
+.inst{
+    margin-top: 80px;
+}
+.name_head{
+    padding: 5px;
+    margin-top: 70px;
+    width: 350px;
+    height: 30px;
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.name_head:hover{
+     background-color: green;
+}
+.name{
+    display: inline-block;
+}
+
+.btn{
+    width:200px;
+    margin-top:20px;
+}
+.btn:hover{
+    background-color: rgb(49, 66, 150);
+    color: aliceblue;
+}
+
+.btn_record{
+    margin: 30px;
+    margin-left: 250px;
+    background-color: blue;
+    color: aqua;
+    border: 5px solid rgba(40, 40, 126, 0.501);
+    border-radius: 20px;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: right;
+}
+.nav_li{
+    margin: 2px 50px 2px 50px;
+    color: rgb(11, 33, 198);  
+}
+
+
+.pred_div{
+    display: inline-block;
+    justify-content: left;
+}
+.pred{
+    height: 100px;
+    margin: 10px;
+    width: 340px;
+}
